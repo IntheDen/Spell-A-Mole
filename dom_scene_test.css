@@ -1,0 +1,35 @@
+#start_button{
+	height: 10vw;
+	width: 20vw;
+	font-size:  30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color:  white;
+	background-color: #ff6b63;
+	border-color: #ff6b63;
+	position: absolute;
+	left:  40vw;
+	top:  45vh;
+}
+
+.div_head{
+	position: absolute;
+	left:  40vw;
+	top:  45vh;
+}
+.reset_button{
+	height: 10vw;
+	width: 20vw;
+	font-size:  30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color:  white;
+	background-color: #ff6b63;
+	border-color: #ff6b63;
+
+}
+
+.reset_button:hover{
+	background-color: yellow;
+	color: #ff6b63;
+}
