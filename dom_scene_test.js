@@ -1,6 +1,8 @@
 const start_game_area = document.querySelector('.start_game');
 const start_game_button = document.querySelector('#start_button');
 const main_container = document.querySelector('.container');
+const how_to_play = document.querySelector('.how_to');
+const how_to_button = document.querySelector('#how_toButton')
 
 //testing hover capabilites through dom, can just do csss instead
 start_game_button.addEventListener("mouseenter",() =>{
@@ -19,6 +21,8 @@ start_game_button.addEventListener("click",() =>{
 	//Hide the intial start game button and disable that div
 	start_game_area.disabled = "true";
 	start_game_area.style.display = "none";
+	how_to_play.disabled = "true";
+  how_to_play.style.display = "none";
 	console.log("I clciked");
 
 	//Now create a new div where I have a line of text for example (will be replaced by a game scene maybe?)
@@ -41,7 +45,8 @@ reset_button.addEventListener("click",()=>{
 	reset_button.remove();
 start_game_area.disabled = "false";
 start_game_area.style.display = "block";
-
+how_to_play.disabled = "false";
+how_to_play.style.display = "block";
 });
 
 });

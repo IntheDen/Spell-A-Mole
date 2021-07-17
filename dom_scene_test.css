@@ -12,6 +12,20 @@
 	top:  45vh;
 }
 
+#how_toButton{
+	height: 10vw;
+	width: 15vw;
+	font-size:  30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color:  white;
+	background-color: #ff6b63;
+	border-color: #ff6b63;
+	position: absolute;
+	left:  42.5vw;
+	top:  56vh;
+}
+
 .div_head{
 	position: absolute;
 	left:  40vw;
