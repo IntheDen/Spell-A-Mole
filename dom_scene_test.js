@@ -45,3 +45,5 @@ start_game_area.style.display = "block";
 });
 
 });
+
+// THIS IS A TEST
