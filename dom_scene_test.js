@@ -3,7 +3,12 @@ const start_game_button = document.querySelector('#start_button');
 const main_container = document.querySelector('.container');
 const how_to_play = document.querySelector('.how_to');
 const how_to_button = document.querySelector('#how_toButton')
-
+const easy_ = document.querySelector('.easy');
+const easyButton = document.querySelector('#easy_button')
+const medium_ = document.querySelector('.medium');
+const mediumButton = document.querySelector('#medium_button')
+const hard_ = document.querySelector('.hard');
+const hardButton = document.querySelector('#hard_button')
 //testing hover capabilites through dom, can just do csss instead
 start_game_button.addEventListener("mouseenter",() =>{
 	start_game_button.style.backgroundColor = "Yellow";
@@ -23,6 +28,9 @@ start_game_button.addEventListener("click",() =>{
 	start_game_area.style.display = "none";
 	how_to_play.disabled = "true";
   how_to_play.style.display = "none";
+	easyButton.style.display = "none";
+	mediumButton.style.display = "none";
+	hardButton.style.display = "none";
 	console.log("I clciked");
 
 	//Now create a new div where I have a line of text for example (will be replaced by a game scene maybe?)
@@ -47,8 +55,9 @@ start_game_area.disabled = "false";
 start_game_area.style.display = "block";
 how_to_play.disabled = "false";
 how_to_play.style.display = "block";
+easyButton.style.display = "block";
+mediumButton.style.display = "block";
+hardButton.style.display = "block";
 });
 
 });
-
-// THIS IS A TEST
